@@ -1,0 +1,31 @@
+table { margin-left: auto;
+  height: 456px;
+  width: 800px;
+  margin: auto;
+}
+
+
+table, td {
+  border: solid 2px;
+  border-collapse: collapse;
+}
+
+
+tr:nth-child(odd) {
+  background: red;
+}
+
+
+tr:nth-child(even) {
+  background: whitesmoke;
+}
+
+
+.Star {
+  width: 400px;
+  height: 245px;
+  margin: auto;
+  flex-wrap: wrap;
+position: absolute;
+padding-left: 310px;
+}

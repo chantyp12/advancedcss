@@ -1,0 +1,37 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 64px);
+    border: 5px solid black;
+  }
+
+  .square {
+    width: 64px;
+    height: 64px;
+    background: black;
+  }
+
+  .wrapper {
+
+    min-height: 100vh;
+  
+    min-width: 100vw;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    justify-content: center;
+  
+    align-items: center; 
+  }
+  
+  .square:nth-child(16n + 1),
+  .square:nth-child(16n + 3),
+  .square:nth-child(16n + 5),
+  .square:nth-child(16n + 7),
+  .square:nth-child(16n + 10),
+  .square:nth-child(16n + 12),
+  .square:nth-child(16n + 14),
+  .square:nth-child(16n + 16) {
+    background: white;
+  }
